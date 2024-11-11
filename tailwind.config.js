@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        urbanist : ["Urbanist", "sans-serif"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

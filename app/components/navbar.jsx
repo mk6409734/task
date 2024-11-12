@@ -146,7 +146,7 @@ export const Navbar = () => {
 
       {/* Mobile Navigation */}
       <ul
-        className={`flex md:flex-col lg:hidden w-full bg-black text-white text-center space-y-4 text-lg font-bold transition-all duration-300 ${
+        className={`flex md:flex-col flex-col lg:hidden w-full bg-black text-white text-center space-y-4 text-lg font-bold transition-all duration-300 ${
           toggle ? "block" : "hidden"
         }`}
       >

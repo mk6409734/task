@@ -84,7 +84,7 @@ export const Question = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:justify-between md:items-center w-[328px] md:w-[1171px] mx-auto">
+    <div className="flex md:flex-col flex-col lg:flex-row lg:justify-between md:items-center w-[328px] lg:w-[1171px] mx-auto">
       <div>
         <h1 className="text-[#00DC82] font-bold text-xl md:text-3xl w-[328px] md:w-[516px] mb-4">
           FREQUENTLY ASKED QUESTIONS

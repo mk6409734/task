@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Hero = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between my-6 mx-4 md:mx-0">
+      <div className="flex flex-col lg:flex-row lg:justify-between items-center my-6 mx-4 md:mx-0">
         {/* Left Content Section */}
         <div className="flex flex-col">
           <div className="flex flex-row flex-wrap">
@@ -46,7 +46,7 @@ export const Hero = () => {
           </div>
         </div>
         {/* Right Image Section */}
-        <div className="flex justify-center mt-6 md:mt-0">
+        <div className="flex justify-center mt-6 lg:mt-0">
           <Image
             src="/iamge.png"
             width={500}

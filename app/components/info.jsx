@@ -5,9 +5,9 @@ import Image from "next/image";
 export const Info = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-between items-center md:my-10">
+      <div className="flex md:flex-col flex-col lg:flex-row justify-between items-center md:my-10">
         <div>
-          <h1 className="text-[#00DC82] md:text-5xl text-2xl text-center font-bold md:leading-[55px] mb-6 md:m-0 max-w-[438px]">
+          <h1 className="text-[#00DC82] lg:text-5xl md:text-3xl text-2xl text-center font-bold md:leading-[55px] mb-6 md:m-0 max-w-[438px]">
             From Creation to Monetization: Vyb Store Has It All
           </h1>
         </div>

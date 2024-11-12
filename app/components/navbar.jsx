@@ -44,7 +44,7 @@ export const Navbar = () => {
         {/* Navigation Links */}
         <button
           onClick={() => settoggle(!toggle)}
-          className="md:hidden block text-white focus:outline-none ml-5"
+          className="lg:hidden block text-white focus:outline-none ml-5"
           aria-label="Toggle navigation menu"
         >
           {toggle ? (
@@ -76,7 +76,7 @@ export const Navbar = () => {
           )}
         </button>
 
-        <div className="hidden sm:hidden md:flex mx-7  mt-3 md:mt-0">
+        <div className="hidden sm:hidden md:hidden lg:flex mx-7  mt-3 md:mt-0">
           <ul className="flex space-x-8 text-2xl  font-bold">
             <li className="hover:text-gray-400 cursor-pointer">Fav Creators</li>
             <li className="hover:text-gray-400 cursor-pointer">Merchandise</li>
@@ -86,7 +86,7 @@ export const Navbar = () => {
         </div>
 
         {/* Profile Button */}
-        <div className="hidden sm:hidden md:flex relative ">
+        <div className="hidden sm:hidden md:hidden lg:flex relative ">
           <button
             onClick={() => setdisplay(!display)}
             className="py-2 px-4 w-[100px] h-[41px] bg-white text-black rounded-xl flex items-center"
@@ -146,7 +146,7 @@ export const Navbar = () => {
 
       {/* Mobile Navigation */}
       <ul
-        className={`flex flex-col md:hidden w-full bg-black text-white text-center space-y-4 text-lg font-bold transition-all duration-300 ${
+        className={`flex md:flex-col lg:hidden w-full bg-black text-white text-center space-y-4 text-lg font-bold transition-all duration-300 ${
           toggle ? "block" : "hidden"
         }`}
       >

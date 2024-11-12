@@ -18,7 +18,7 @@ export const Travel = () => {
 
         <div className="flex flex-col mx-5 rounded-xl my-7">
           {/* Top Section */}
-          <div className="relative h-[166px] md:h-[500px] ">
+          <div className="relative h-[144px] md:h-[340px] lg:h-[500px] ">
             <Image
               src="/Frame.png"
               width={1200}
@@ -26,16 +26,16 @@ export const Travel = () => {
               className="rounded-t-3xl"
               alt="mount"
             />
-            <h1 className="text-white uppercase md:text-9xl sm:text-7xl text-4xl md:top-16 top-10 absolute inset-x-0 mx-auto text-center font-bold tracking-widest">
+            <h1 className="text-white uppercase lg:text-9xl md:text-7xl text-4xl md:top-16 top-10 absolute inset-x-0 mx-auto text-center font-bold tracking-widest">
               Travel
             </h1>
-            <p className="text-white w-11/12 max-w-[700px] md:text-3xl text-base md:bottom-20 bottom-0 inset-x-0 absolute mx-auto text-center font-bold tracking-wider">
+            <p className="text-white w-11/12 max-w-[700px] lg:text-3xl md:text-xl text-sm md:bottom-20 bottom-0 inset-x-0 absolute mx-auto text-center font-bold tracking-wider">
               Turn your travel experience into itinerary, travel package with
               VYB Store and share it with your true followers.
             </p>
           </div>
           {/* Middle Section */}
-          <div className="bg-black md:h-[660px] h-[600px] justify-center">
+          <div className="bg-black lg:h-[596px] md:h-[440px] justify-center">
             <h1 className="text-white my-10 md:my-5 md:text-3xl text-xl text-center font-bold tracking-wider">
               Explore Our Curated Travel Itineraries
             </h1>
@@ -62,13 +62,13 @@ export const Travel = () => {
                 <SwiperSlide>
                   <div className="relative my-5">
                     <Image src="/Frame1575.png" height={480} width={270} />
-                    <p className="text-white absolute md:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
+                    <p className="text-white absolute lg:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
                       Darjeeling Itinerary
                     </p>
-                    <p className="text-white absolute md:text-md text-xs tracking-wider md:left-24 left-10 font-bold bottom-10">
+                    <p className="text-white absolute md:text-md text-xs tracking-wider lg:left-24 left-10 font-bold bottom-10">
                       West Bangel
                     </p>
-                    <div className="md:w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 md:flex hidden justify-around items-center">
+                    <div className="md:w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 lg:flex hidden justify-around items-center">
                       <h1 className="font-bold text-base ">Samira Hadid</h1>
                       <Image
                         src="/user.jpeg"
@@ -84,13 +84,13 @@ export const Travel = () => {
                   {" "}
                   <div className="relative my-5">
                     <Image src="/Frame1183.png" height={480} width={270} />
-                    <p className="text-white absolute md:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
+                    <p className="text-white absolute lg:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
                       Munnar Itinerary
                     </p>
-                    <p className="text-white absolute  md:text-md text-xs tracking-wider md:left-24 left-10 font-bold bottom-10">
+                    <p className="text-white absolute  md:text-md text-xs tracking-wider lg:left-24 left-10 font-bold bottom-10">
                       Kerla
                     </p>
-                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 md:flex hidden justify-around items-center">
+                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 lg:flex hidden justify-around items-center">
                       <h1 className="font-bold">Samira Hadid</h1>
                       <Image
                         src="/user.jpeg"
@@ -105,13 +105,13 @@ export const Travel = () => {
                 <SwiperSlide>
                   <div className="relative my-5">
                     <Image src="/Frame1182.png" height={480} width={270} />
-                    <p className="text-white absolute md:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
+                    <p className="text-white absolute lg:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
                       Delhi Itinerary
                     </p>
-                    <p className="text-white absolute md:text-md text-xs tracking-wider md:left-24 left-10 font-bold bottom-10">
+                    <p className="text-white absolute md:text-md text-xs tracking-wider lg:left-24 left-10 font-bold bottom-10">
                       Delhi
                     </p>
-                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 md:flex hidden justify-around items-center">
+                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 lg:flex hidden justify-around items-center">
                       <h1 className="font-bold">Samira Hadid</h1>
                       <Image
                         src="/user.jpeg"
@@ -126,13 +126,13 @@ export const Travel = () => {
                 <SwiperSlide>
                   <div className="relative my-5">
                     <Image src="/Frame1182.png" height={480} width={270} />
-                    <p className="text-white absolute md:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
+                    <p className="text-white absolute lg:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
                       Delhi Itinerary
                     </p>
-                    <p className="text-white absolute md:text-md text-xs tracking-wider md:left-24 left-10 font-bold bottom-10">
+                    <p className="text-white absolute md:text-md text-xs tracking-wider lg:left-24 left-10 font-bold bottom-10">
                       Delhi
                     </p>
-                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 md:flex hidden justify-around items-center">
+                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 lg:flex hidden justify-around items-center">
                       <h1 className="font-bold">Samira Hadid</h1>
                       <Image
                         src="/user.jpeg"
@@ -147,13 +147,13 @@ export const Travel = () => {
                 <SwiperSlide>
                   <div className="relative my-5">
                     <Image src="/Frame1182.png" height={480} width={270} />
-                    <p className="text-white absolute md:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
+                    <p className="text-white absolute lg:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
                       Delhi Itinerary
                     </p>
-                    <p className="text-white absolute md:text-md text-xs tracking-wider md:left-24 left-10 font-bold bottom-10">
+                    <p className="text-white absolute md:text-md text-xs tracking-wider lg:left-24 left-10 font-bold bottom-10">
                       Delhi
                     </p>
-                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 md:flex hidden justify-around items-center">
+                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 lg:flex hidden justify-around items-center">
                       <h1 className="font-bold">Samira Hadid</h1>
                       <Image
                         src="/user.jpeg"
@@ -168,13 +168,13 @@ export const Travel = () => {
                 <SwiperSlide>
                   <div className="relative my-5">
                     <Image src="/Frame1182.png" height={480} width={270} />
-                    <p className="text-white absolute md:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
+                    <p className="text-white absolute lg:text-xl text-sm tracking-wider left-10 font-bold bottom-16">
                       Delhi Itinerary
                     </p>
-                    <p className="text-white absolute md:text-md text-xs tracking-wider md:left-24 left-10 font-bold bottom-10">
+                    <p className="text-white absolute md:text-md text-xs tracking-wider lg:left-24 left-10 font-bold bottom-10">
                       Delhi
                     </p>
-                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 md:flex hidden justify-around items-center">
+                    <div className="w-[191px] h-[31px] bg-white rounded-2xl absolute left-10 p-1 bottom-1 lg:flex hidden justify-around items-center">
                       <h1 className="font-bold">Samira Hadid</h1>
                       <Image
                         src="/user.jpeg"

@@ -44,11 +44,11 @@ export const Slider = () => {
 
   return (
     <>
-      <div className="">
+      <div className="sm:ml-12 ml-5 lg:m-0 md:m-0">
         <h1 className="font-bold text-3xl tracking-wider text-[#00DC82] text-center my-8">
           How to get started?
         </h1>
-        <div className="ml-10 md:m-0" id="cards">
+        <div className="" id="cards">
           <div
             id="card1"
             className="card flex flex-col md:flex-row justify-around items-center text-white bg-[#A94949] rounded-3xl h-[378px] w-[320px] md:w-[840px] md:h-[377px] md:mx-auto"
